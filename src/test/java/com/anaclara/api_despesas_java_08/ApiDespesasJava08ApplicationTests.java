@@ -1,13 +1,13 @@
 package com.anaclara.api_despesas_java_08;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class ApiDespesasJava08ApplicationTests {
+@SpringBootApplication
+public class ApiDespesasJava08Application {
 
-	@Test
-	void contextLoads() {
+	public static void main(String[] args) {
+		SpringApplication.run(ApiDespesasJava08Application.class, args);
 	}
 
 }
